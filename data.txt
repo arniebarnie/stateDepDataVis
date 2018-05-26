@@ -41,7 +41,7 @@ Croatia 1992 Zagreb
 Cuba 1902 Havana
 Cyprus 1960 Nicosia
 Czech-Republic 1993 Prague
-Democratic-Republic-of-the-Congo 1960 
+Democratic-Republic-of-the-Congo 1960 Brazzaville
 Denmark 1801 Copenhagen
 Djibouti 1977 Djibouti
 Dominica 1979 NONE
