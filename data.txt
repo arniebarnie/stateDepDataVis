@@ -41,7 +41,7 @@ Croatia 1992 Zagreb
 Cuba 1902 Havana
 Cyprus 1960 Nicosia
 Czech-Republic 1993 Prague
-Democratic-Republic-of-the-Congo 1960 Brazzaville
+Democratic-Republic-of-the-Congo 1960 Kinshasha
 Denmark 1801 Copenhagen
 Djibouti 1977 Djibouti
 Dominica 1979 NONE
@@ -110,7 +110,7 @@ Mexico 1822 Mexico-City
 Micronesia 1986 Kolonia
 Moldova 1992 Chisinau
 Monaco 1874 NONE
-Mongolia 1987, Ulaanbaatar
+Mongolia 1987 Ulaanbaatar
 Montenegro 1905 Podgorica
 Morocco 1905 Tangier
 Mozambique 1975 Maputo
@@ -134,7 +134,7 @@ Poland 1919 Warsaw
 Portugal 1791 Lisbon
 Qatar 1971 Doha
 South-Korea 1949 Seoull
-Republic-of-the-Congo 
+Republic-of-the-Congo 1960 Brazzaville
 Romania 1880 Bucharest
 Russia 1809 Moscow
 Rwanda 1962 Kigali
@@ -153,7 +153,7 @@ Singapore 1966 Singapore
 Slovakia 1993 Bratislava
 Slovenia 1992 Ljubljana
 Somalia 1960 Mogadishu
-South-Africa 1929 Capt-Town
+South-Africa 1929 Cape-Town
 South-Sudan 2011 Juba
 Spain 1783 Madrid
 Sri-Lanka 1948 Colombo

@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html/>
+<html>
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLJhQHcguQ-zG98Ai_J4HmSBIgzKse2vI&callback=initMap"></script>
+    <style>
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    #header {
+        background-color: #0e1954;
+        width: 1280px;
+        height: 150px;
+        font-family: Arial Narrow;
+        font-size: 25px;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #0e1954;
+        color: white;
+    }
+
+    .body3 {
+        margin: 20px;
+        font-family: Arial Narrow;
+    }
+
+        button {
+            color: white; 
+        }
+    #check {
+        color: red;
+    }
+        #body1{
+            width:1200px;
+        }
+    #map {
+        width: 800px;
+        height: 350px;
+        background-color: red;
+        margin: auto;
+        width: 50%;
+        float: right;
+    }
+
+    #change {
+        margin: 20px;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        background-color: #735CDD;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+    }
+    #link {
+        margin: 20px;
+        position
+    }
+
+    #info {
+        float: left;
+        width: 300px;
+        margin: 20px;
+    }
+        #itemA {
+            float:left;
+            width: 550px; 
+        }
+    #container {
+        width: 500px;
+        height: 100px;
+    }
+    #responseButton {
+        background-color: #735CDD; 
+    }
+    </style>
+    <title>US Embassy Locations</title>
+</head>
+<body>
+    <div id="header">
+        <br />
+        <h1>US Embassy Locations Throughout History</h1>
+    </div>
+    <div id="body1" class="body3">
+        <div id = "itemA">
+        <p>Enter date here, range is between 1780 and 2018, to find US embassy locations at that year.</p>
+        <table>
+            <tr>
+                <td><input type="text" id="response" value="Input year"/> </td>
+                <td><button id="responseButton">Show locations</button></td>
+                <td><p id="check">Invalid range / Illegal characters!</p></td>
+            </tr>
+        </table>
+        <br />
+        <p class="options">Select country to see info on the embassy location!</p>
+        <select class="options" onchange="myFunction()" id="selector">
+            
+        </select>
+        </div>
+        
+        <div id="map"></div>
+        </div>
+        <br /><br /><br />
+        <div id ="container">
+        <div id="info">Information here</div>
+        </div>
+        <button id="change">Skip 10 Years</button>
+</body>
+</html>
